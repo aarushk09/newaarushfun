@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarush.fun</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBuEkkJAL-1TQ875DgWxQBBbQLLLZLYhMs",
+            authDomain: "aarushfun-76269.firebaseapp.com",
+            projectId: "aarushfun-76269",
+            storageBucket: "aarushfun-76269.appspot.com",
+            messagingSenderId: "614863255178",
+            appId: "1:614863255178:web:e7247f15d85a7ddfde9f73",
+            measurementId: "G-85VJZ6KCQV",
+            databaseURL: "https://aarushfun-76269-default-rtdb.firebaseio.com/"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Aarush.fun</h1>
+        <p>I made this website for fun.</p>
+        <div class="buttons">
+            <a href="https://stack-tower-gray.vercel.app/" target="_blank" class="button">Stack Tower</a>
+            <a href="https://todo-list-sigma-livid.vercel.app/" target="_blank" class="button">Todo List</a>
+            <a href="https://text-counter-gold.vercel.app/" target="_blank" class="button">Text Counter</a>
+            <a href="https://gradient-creator.vercel.app/" target="_blank" class="button">Gradient Creator</a>
+            <a href="https://ide-azure.vercel.app/" target="_blank" class="button">IDE</a>
+            <a href="https://aarushk09.github.io/connect4/" target="_blank" class="button">Connect 4</a>
+            <a href="https://aarushk09.github.io/tabletennis/" target="_blank" class="button">Table Tennis</a>
+            <a href="https://aarushk09.github.io/Tictactoe/" target="_blank" class="button">Tic Tac Toe</a>
+        </div>
+        <div class="counter">
+            <p>This page has been viewed <span id="hitCounter">0</span> times.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
